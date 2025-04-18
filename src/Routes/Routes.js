@@ -24,6 +24,7 @@ import Home02 from '../Pages/Homes/Home02';
 import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 import EditorLogin from '../Pages/EditorLogin/EditorLogin';
 import Services04 from '../Pages/Services/Services04';
+import Blog from '../Containers/Blogs/Blog';
 
 export const routes = createBrowserRouter([
     {
@@ -46,16 +47,20 @@ export const routes = createBrowserRouter([
                 path: '/project-details',
                 element: <ProjectDetails/>
             },
+            // {
+            //     path: '/residentials',
+            //     element: <Services01/>
+            // },
+            // {
+            //     path: '/commercials',
+            //     element: <Services04/>
+            // },
             {
-                path: '/residentials',
-                element: <Services01/>
+                path: '/residential',
+                element: <Services02/>
             },
             {
-                path: '/commercials',
-                element: <Services04/>
-            },
-            {
-                path: '/services-2',
+                path: '/commercial',
                 element: <Services02/>
             },
             {
@@ -77,6 +82,10 @@ export const routes = createBrowserRouter([
             {
                 path: '/contact',
                 element: <ContactPage/>
+            },
+            {
+                path: '/blogs',
+                element: <Blog/>
             },
             {
                 path: '*',

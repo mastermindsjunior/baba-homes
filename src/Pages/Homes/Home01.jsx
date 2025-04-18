@@ -5,14 +5,15 @@ import Experience from '../../Containers/Experiences/Experience';
 import FunFact01 from '../../Containers/Funfacts/FunFact01';
 import ServiceHome01 from '../../Containers/ServiceContainers/ServiceHome01';
 import Testimonial01 from '../../Containers/Testimonials/Testimonial01';
-// import Slider from '../../Containers/ThemeSliders/Slider';
+import Slider from '../../Containers/ThemeSliders/Slider';
 import Slider02 from '../../Containers/ThemeSliders/Slider02';
+import Testimonial02 from '../../Containers/Testimonials/Testimonial02';
 
 const Home01 = () => {
     return (
         <div className="main_wrapper">
-            {/* <Slider /> */}
-            <Slider02 />
+            <Slider />
+            {/* <Slider02 /> */}
             <Experience />
             <ServiceHome01 />
             {/* <FunFact01 /> */}
@@ -26,7 +27,8 @@ const Home01 = () => {
                 bannerType='banner type_3'
             />
 
-            <Testimonial01 pb='pd_btom_80' />
+            {/* <Testimonial01 pb='pd_btom_80' /> */}
+            <Testimonial02/>
 
             {/* <Blog /> */}
             {/* <Partners01 /> */}

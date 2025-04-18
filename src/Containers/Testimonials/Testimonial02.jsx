@@ -27,7 +27,7 @@ const Testimonial02 = () => {
 
     ];
     return (
-        <div className="section testimonial2">
+        <div className="section testimonial2 pb-0">
             {/* <div className="owl_testimonial2 owl-carousel owl-theme"> */}
             <Swiper
                 // className="owl_testimonial2 owl-carousel owl-theme"

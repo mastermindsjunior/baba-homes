@@ -34,10 +34,10 @@ const Footer = () => {
                                 <div className="footer_nav">
                                     <ul className="footer_menu">
                                         <li className="menu-item"><Link to="/">Home</Link></li>
-                                        <li className="menu-item"><Link to="/residentials">Residential</Link></li>
-                                        <li className="menu-item"><Link to="/commercials">Commercial</Link></li>
+                                        <li className="menu-item"><Link to="/residential">Residential</Link></li>
+                                        <li className="menu-item"><Link to="/commercial">Commercial</Link></li>
                                         <li className="menu-item"><Link to="/about">About</Link></li>
-                                        <li className="menu-item"><Link to="/project">Projects</Link></li>
+                                        <li className="menu-item"><Link to="/blogs">Blogs</Link></li>
                                         {/* <li className="menu-item"><a href="/service-details">Be an Instructor</a></li> */}
                                         <li className="menu-item"><Link to="/contact">Contact</Link></li>
                                     </ul>

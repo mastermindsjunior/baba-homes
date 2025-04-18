@@ -1917,10 +1917,10 @@ textarea.form-control:focus {
 }
 
 .header .logo {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
   flex-shrink: 0;
 }
 
@@ -2073,8 +2073,8 @@ textarea.form-control:focus {
 .header .mainnav ul.main_menu li ul li a {
   font-size: 16px;
   font-weight: 600;
-  color: var(--clr-edit-white-color);
-  padding: 13px 20px;
+  color: var(--clr-edit-black-color);
+  padding: 13px 0px;
   width: 100%;
   text-decoration: none;
   text-align: left;
