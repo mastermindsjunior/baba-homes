@@ -27,8 +27,8 @@ const Header02 = () => {
                                         </li>
                                         <li className="menu-item menu-item-has-children"><a href="#">Services</a>
                                             <ul className="sub-menu">
-                                                <li className="menu-item"><a href="/services">Residential Construction</a></li>
-                                                <li className="menu-item"><a href="/services">Commercial Construction</a></li>
+                                                <li className="menu-item"><a href="/residential">Residential Construction</a></li>
+                                                <li className="menu-item"><a href="/commercial">Commercial Construction</a></li>
                                                 {/* <li className="menu-item"><a href="/service-details">Service Details</a></li> */}
                                             </ul>
                                         </li>
